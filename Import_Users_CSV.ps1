@@ -1,3 +1,14 @@
+############################################################################
+#
+#   Based on script from: http://vicryhc.wordpress.com/
+#   Modified to pull in dynamic PW
+#   CSV Setup:
+#       sAMAccountName, Password
+#
+#   Created by Kolby Allen: kolbya@isoutsource.com
+#
+############################################################################
+
 Import-Module ActiveDirectory
 
 $inputFile = Import-CSV  C:\Users\Administrator\Desktop\import.csv
