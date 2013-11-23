@@ -11,8 +11,8 @@
 
 Import-Module ActiveDirectory
 
-$inputFile = Import-CSV  C:\Users\Administrator\Desktop\import.csv
-$log = "C:\Users\Administrator\Desktop\LOG-Import.log"
+$inputFile = Import-CSV  C:\Users\Administrator\Desktop\import.csv # Import file location/name
+$log = "C:\Users\Administrator\Desktop\LOG-Import.log" # Log file Location/name
 $date = Get-Date
 
 Function createUsers {
