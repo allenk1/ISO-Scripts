@@ -1,7 +1,7 @@
 # +---------------------------------------------------------------------------
 # | File : BackuptoS3_Snapshots.ps1
 # | Version : 1.0
-# | Purpose : Backs up shadow copies to S3 & EBS snapshots
+# | Purpose : Backs up to S3 & creates EBS snapshots
 # | Synopsis:
 # | Usage : .\BackuptoS3_Snapshots.ps1
 # +----------------------------------------------------------------------------
@@ -12,7 +12,7 @@
 # | PS Tools - http://aws.amazon.com/powershell/
 # +----------------------------------------------------------------------------
 # | Maintenance History
-# | View GitHub notes:
+# | View GitHub notes: https://github.com/allenk1/ISO-Scripts/commits/master/BackuptoS3_Snapshots.ps1
 # ********************************************************************************
 
 
